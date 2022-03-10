@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(230, 233, 219, 0.507);
+}
+
+@media only screen and (min-width:900px){
+    .a1{width: 80%;margin: 0 auto;}
+    .a2{width: 50%;}
+    .a3{display: flex;}
+    .a4{margin-right: 20px;}
+}
+
+@media only screen and (max-width:899px){
+    .b1{width: 90%;margin: 0 auto;}
+}
+.g1{
+    background-color: rgb(71, 71, 255);
+}
+.g4{
+    display: flex;
+}
+.g2 img{
+    width: 100px;
+    align-items: left;
+    padding: 5px;
+}
+.g3{
+    font-family: sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: rgb(94, 22, 22);
+	-webkit-text-fill-color: rgb(136, 25, 25);
+    font-weight: bolder;
+    
+}
+.g7{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-decoration: underline;
+   
+}
+
+.g8 li{
+    font-size: 25px;
+    text-align:justify;
+}
+.g9{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    margin-top: 40px;
+}
+.g10 li{
+    font-size: 25px;
+    text-align:justify;
+    margin: 0 auto;
+    /* width: 70%; */
+}
+
+.g8 table{
+    font-size: 25px;
+    margin: 0 auto;
+}
+table{
+    border-collapse: collapse;
+    color: rgb(114, 37, 37);
+    
+}
+table tr th, table tr td{
+    border: 2px solid black;
+    font-size: large;
+}
+.g12{
+    font-size: 25px;
+}
+table tr:nth-child(1){
+    color: blanchedalmond;
+    background-color: rgb(66, 93, 216)!important;
+}
+table tr:nth-child(2n){
+    background-color: rgb(255, 255, 255);
+}
+table tr:nth-child(2n+1){
+    background-color: rgb(210, 210, 216);
+}
+.f2{
+    padding: 5px;
+    padding-bottom: 30px;
+    background-color: rgb(234, 236, 205);
+}
+.g10 a{
+    text-decoration: none;
+    
+}
